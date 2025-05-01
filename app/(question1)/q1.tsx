@@ -12,7 +12,7 @@ export default function Question1() {
 
   const handleSkip = () => {
     console.log('Skip button pressed');
-    // Add your custom logic here
+    router.push('/q2');
   };
   const router = useRouter();
   const [isPressed, setIsPressed] = useState(false);

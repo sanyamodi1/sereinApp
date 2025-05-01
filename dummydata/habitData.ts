@@ -1,0 +1,62 @@
+export const habitData = [
+  {
+    id: "1",
+    title: "Drink Water",
+    dailyProgress: 2,
+    totalTarget: 10,
+    measurement: "glasses",
+    description: "Stay hydrated by drinking at least 2 liters of water daily.",
+    frequency: "Daily",
+    streak: 5,
+    completedDays: 20,
+    totalDays: 25,
+    icon: "water",
+    color: "#D8F3FF",
+    colorsScheme: 'primary',
+    progressHistory: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1],
+    reminder: {
+        message1: "Don't forget to drink water!",
+        message2: "Stay hydrated!",
+    }
+  },
+  {
+    id: "2",
+    title: "Slept Yet",
+    dailyProgress: 1,
+    totalTarget: 8,
+    measurement: "hours",
+    description: "Get at least 8 hours of sleep each night.",
+    frequency: "Weekly",
+    streak: 3,
+    completedDays: 15,
+    totalDays: 25,
+    icon: "sleep",
+    colorsScheme: 'secondary',
+    color: "#f3e5f5",
+    progressHistory: [1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1],
+    reminder: {
+        message1: "Time to sleep!",
+        message2: "Get some rest!",
+    }
+  },
+  {
+    id: "3",
+    title: "Time to Study",
+    dailyProgress: 2,
+    totalTarget: 7,
+    measurement: "hours",
+    description: "Study for at least 7 hours each day.",
+    frequency: "Daily",
+    streak: 7,
+    completedDays: 18,
+    totalDays: 25,
+    icon: "study",
+    color: "#e8f5e9",
+    colorsScheme: 'accent',
+    progressHistory: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1],
+    reminder: {
+        message1: "Time to study!",
+        message2: "Focus and learn!",
+    }
+  },
+];

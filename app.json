@@ -18,7 +18,7 @@
     "assetBundlePatterns": ["**/*"],
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/icons/logo.jpg",
         "backgroundColor": "#ffffff"
       },
       "package": "com.sanya11.sereinApp"
@@ -28,6 +28,7 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+
     "plugins": [
       "expo-router",
       [
@@ -44,6 +45,7 @@
       "typedRoutes": true
     },
     "extra": {
+      "API_KEY": "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",
       "router": {
         "origin": false
       },

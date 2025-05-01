@@ -28,7 +28,7 @@ const Page1 = () => {
   }
 
   const handleNextPress = () => {
-    router.push('/page2'); // Navigate to page2
+    router.push('/home'); // Navigate to page2
   };
 
   return (
